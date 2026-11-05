@@ -1,3 +1,3 @@
 import streamlit as st
 st.title("Mening PaaS ilovam")
-st.write("Bulutli texnologiyalar")
+st.write("PaaS amaliy mashg'uloti")

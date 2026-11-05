@@ -1,13 +1,13 @@
 import streamlit as st
-st.title("PaaS bulutli ilovasi")
-ism = st.text_input("Ismingizni kiriting")
-guruh = st.text_input("Guruhingizni kiriting")
-Fakultitet =  st.text_input("Fakultetingizni kiriting")
-
-if st.button("Natijani ko'rsatish"):
- if ism.strip() and guruh.strip(): 
-  st.success(f"Salom, {ism}!")
-  st.write(f"Guruhingiz: {guruh}")
-  st.write(f"Fakultetingiz: {Fakultitet}")
- else:
-  st.warning("Barcha maydonlarni to'ldiring")
+st.title("Bulutli kalkulyator")
+a = st.number_input("Birinchi son", value=0)
+b = st.number_input("Ikkinchi son", value=0)
+amal = st.selectbox(
+ "Amalni tanlang",
+ ["Qo'shish", "Ayirish", "Ko'paytirish"]
+)
+if st.button("Hisoblash"):
+ if amal == "Qo'shish":
+  
+  natija = a + b
+ elif amal == "Ayirish":

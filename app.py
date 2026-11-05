@@ -1,3 +1,5 @@
 import streamlit as st
-st.title("Mening PaaS ilovam")
-st.write("PaaS amaliy mashg'uloti")
+st.title("PaaS bulutli ilovasi")
+st.header("Bulutli texnologiyalar")
+st.write("Bu mening birinchi veb-ilovam.")
+st.success("Dastur kodi tayyor!")

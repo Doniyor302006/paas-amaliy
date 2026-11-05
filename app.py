@@ -8,5 +8,6 @@ if st.button("Natijani ko'rsatish"):
  if ism.strip() and guruh.strip(): 
   st.success(f"Salom, {ism}!")
   st.write(f"Guruhingiz: {guruh}")
+  st.write(f"Fakultetingiz: {Fakultitet}")
  else:
   st.warning("Barcha maydonlarni to'ldiring")
